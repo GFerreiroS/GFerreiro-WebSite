@@ -43,6 +43,8 @@
   "devDependencies": {
     "@emailjs/browser": "^3.11.0",
     "@rollup/plugin-terser": "^0.4.1",
+    "@types/react-scroll": "^1.8.6",
+    "react-scroll": "^1.8.9",
     "tailwindcss": "^3.3.1"
   }
 }

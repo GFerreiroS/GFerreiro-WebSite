@@ -33,6 +33,7 @@ export default function About() {
                             href={CV}
                             download="Gabriel_Ferreiro_CV.pdf"
                             target="_blank"
+                            rel="noreferrer"
                             className="inline-flex text-white bg-green-500 border-0 py-4 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
                             Download CV
                         </a>
