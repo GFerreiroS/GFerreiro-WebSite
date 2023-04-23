@@ -3,8 +3,9 @@ import React from "react";
 import { projects } from "../data";
 
 export default function Projects() {
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     return (
-        <section id="projects" className="text-gray-400 bg-gray-900 body-font h-screen flex items-center">
+        <section id="projects" className={`text-gray-400 bg-gray-900 body-font flex items-center${!isMobile ? " h-screen" : ""}`}>
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                 <div className="flex flex-col w-full mb-20">
                     <CodeIcon className="mx-auto inline-block w-10 mb-4" />

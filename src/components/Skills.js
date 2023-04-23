@@ -3,8 +3,9 @@ import React from "react";
 import { skills } from "../data";
 
 export default function Skills() {
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     return (
-        <section id="skills" className="h-screen flex items-center">
+        <section id="skills" className={`flex items-center${!isMobile ? " h-screen" : ""}`}>
             <div className="container px-5 py-10 mx-auto">
                 <div className="text-center mb-20">
                     <ChipIcon className="w-10 inline-block mb-4" />
