@@ -3,6 +3,7 @@ import React from "react";
 import { projects } from "../data";
 
 export default function Projects() {
+    // Checks if the user is in mobile or desktop
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     return (
         <section id="projects" className={`text-gray-400 bg-gray-900 body-font flex items-center${!isMobile ? " h-screen" : ""}`}>
@@ -18,6 +19,7 @@ export default function Projects() {
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
+                    {/* Maps all projects written in data.js to make easy adding new projects */}
                     {projects.map((project) => (
                         <a
                             href={project.link}

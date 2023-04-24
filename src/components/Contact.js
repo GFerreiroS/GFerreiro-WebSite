@@ -3,9 +3,13 @@ import emailjs from '@emailjs/browser';
 
 
 export default function Contact() {
+    //EmailJS function
     const form = useRef();
+
+    // Checks if the user is in mobile or desktop
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
+    // Reloads the page when submitting the form
     function refreshPage() {
         window.location.reload(false);
     }

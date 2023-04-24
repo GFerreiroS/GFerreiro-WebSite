@@ -3,6 +3,7 @@ import Typewriter from "typewriter-effect";
 import CV from "../CV/CV.pdf"
 
 export default function About() {
+    // Checks if the user is in mobile or desktop
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     return (
         <section id="about" className={`flex${!isMobile ? " h-screen" : ""}`}>

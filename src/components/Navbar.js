@@ -3,8 +3,10 @@ import { Link } from "react-scroll";
 import "../App.css"
 
 export default function Navbar() {
+    // When the page is at the top, the navbar hides
     const [scrollPosition, setScrollPosition] = useState(0);
 
+    // Checks in what position is the window
     useEffect(() => {
         const handleScroll = () => {
             setScrollPosition(window.scrollY);
@@ -16,6 +18,7 @@ export default function Navbar() {
     }, []);
 
     return (
+        // scrollPosition writes navbar-show when is not at the top of the page and when is at the top writes navbar-hide
         <header className={`bg-gray-800 md:sticky top-0 z-10 ${scrollPosition > 0 ? "navbar-show" : "navbar-hide"}`}>
             <div className="container flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <Link
