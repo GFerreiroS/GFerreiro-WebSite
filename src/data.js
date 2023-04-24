@@ -1,35 +1,19 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Xplora (WIP)",
+    subtitle: "React and Python Stack",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "Xplora tries to be one of the largest geocaching sites for Spain, is a web app that tries to locate and make a fun experience for the users to find caches.",
+    image: "./Xplora.png",
+    link: "https://github.com/ses1234567890/geocaching",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "My website",
+    subtitle: "React",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "This website was made from the ground up with features that I have learned in my 4Geeks academy and myself as a self taught.",
+    image: "./Gferreiro.png",
+    link: "https://github.com/GFerreiroS/GFerreiro-WebSite",
   },
 ];
 
@@ -38,7 +22,7 @@ export const skills = [
   "React (Entry-level)",
   "Flask (Entry-level)",
   "Python (Entry-level)",
-  "Docker (Junior)",
+  "Docker (Junior, self taught)",
   "REST APIs (Entry-level)",
   "Linux scripts (Entry-level)",
   "Windows scripts (Entry-level)"

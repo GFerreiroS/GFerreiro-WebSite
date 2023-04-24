@@ -19,7 +19,7 @@ export default function Navbar() {
         <header className={`bg-gray-800 md:sticky top-0 z-10 ${scrollPosition > 0 ? "navbar-show" : "navbar-hide"}`}>
             <div className="container flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <Link
-                    to="about"
+                    to="scrollTop"
                     spy={true}
                     smooth={true}
                     offset={50}

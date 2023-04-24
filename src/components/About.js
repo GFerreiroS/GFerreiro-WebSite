@@ -26,7 +26,7 @@ export default function About() {
                         I have expertise in various web technologies and a keen eye for design,
                         along with the ability to work well under pressure,
                         communicate effectively, and collaborate with diverse teams.
-                        I am excited to apply my skills and experience to create innovative solutions for your company.
+                        I am excited to apply my skills and experience to create innovative solutions.
                     </p>
                     <div className="flex justify-center">
                         <a
